@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link to="hero" smooth={true} duration={500} className={linkStyle}>Home</Link>
             <Link to="about" smooth={true} duration={500} className={linkStyle}>About</Link>
             <Link to="project" smooth={true} duration={500} className={linkStyle}>Projects</Link>
-            <Link to="contact" smooth={true} duration={500} className={linkStyle}>Contact</Link>
+            <Link to="gmail" smooth={true} duration={500} className={linkStyle}>Contact</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -47,7 +47,7 @@ const Navbar = () => {
           <Link to="hero" smooth={true} duration={500} onClick={toggleMenu} className="text-white hover:text-blue-500 text-xl">Home</Link>
           <Link to="about" smooth={true} duration={500} onClick={toggleMenu} className="text-white hover:text-blue-500 text-xl">About</Link>
           <Link to="project" smooth={true} duration={500} onClick={toggleMenu} className="text-white hover:text-blue-500 text-xl">Projects</Link>
-          <Link to="contact" smooth={true} duration={500} onClick={toggleMenu} className="text-white hover:text-blue-500 text-xl">Contact</Link>
+          <Link to="gmail" smooth={true} duration={500} onClick={toggleMenu} className="text-white hover:text-blue-500 text-xl">Contact</Link>
         </div>
       )}
     </nav>
