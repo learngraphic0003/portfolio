@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 export const Hero = () => {
   return (
-    <section className="relative flex flex-col-reverse md:flex-row items-center justify-between mt-12 md:mt-20 px-6 md:px-20 z-10 max-w-[80%] m-auto">
+    <section className="relative flex flex-col-reverse md:flex-row items-center justify-between mt-16 md:mt-20 px-6 md:px-20 z-10 max-w-[80%] m-auto ">
       <div className="flex flex-col items-start md:items-start text-white z-10 max-w-xl">
         
         <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-red-500 font-['Roboto']"> <span className=" text-white">  Hi,</span> 
