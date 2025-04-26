@@ -46,7 +46,7 @@ export const Hero = () => {
         </p>
 
         
-        <Link to="gmail" smooth={true} duration={500}  className="bg-blue-600 hover:bg-blue-700 text-white text-xl font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300" >  Contact Me</Link>
+        <Link to="gmail" smooth={true} duration={500}  className= "  m-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xl font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300" >  Contact Me</Link>
       </div>
 
       <img

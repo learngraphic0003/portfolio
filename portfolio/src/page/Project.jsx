@@ -1,155 +1,156 @@
 import React from "react";
 import swiggyImg from "../assets/images/swiggy.png";
 import ePlantImg from "../assets/images/e plant.png";
-import employee from "../assets/images/employe-management.png"
-import uploader from '../assets/images/uploader.png'
-import ai from "../assets/images/ai.png"
-import game from "../assets/images/game.png"
+import employee from "../assets/images/employe-management.png";
+import uploader from "../assets/images/uploader.png";
+import ai from "../assets/images/ai.png";
+import game from "../assets/images/game.png";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-
-const project = () => {
-
-
+const Project = () => {
   useGSAP(() => {
-    gsap.from(".cardleft", {
-      x: -400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".cardleft",
-        start: "top 70%",
-        end: "top 60%",
-        scrub: true,
-        
-      }
+    const mm = gsap.matchMedia(); 
+
+    mm.add("(min-width: 768px)", () => { 
+      gsap.from(".cardleft", {
+        x: -400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".cardleft",
+          start: "top 70%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".cardright", {
+        x: 400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".cardright",
+          start: "top 70%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card1", {
+        x: -400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card1",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card2", {
+        x: 400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card2",
+          start: "top 90%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card3", {
+        x: -400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card3",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card4", {
+        x: 400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card4",
+          start: "top 90%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card5", {
+        x: -400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card5",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card6", {
+        x: 400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card6",
+          start: "top 90%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card7", {
+        x: -400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card7",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card8", {
+        x: 400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card8",
+          start: "top 90%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card9", {
+        x: -400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card9",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".card10", {
+        x: 400,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".card10",
+          start: "top 90%",
+          end: "top 60%",
+          scrub: true,
+        },
+      });
     });
-    gsap.from(".cardright", {
-      x: 400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".cardright",
-        start: "top 70%",
-        end: "top 60%",
-        scrub: true,
-        
-      }
-    });
-    gsap.from(".card1", {
-      x: -400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card1",
-        start: "top 70%",
-        end: "top 20%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card2", {
-      x: 400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card2",
-        start: "top 90%",
-        end: "top 60%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card3", {
-      x: -400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card1",
-        start: "top 70%",
-        end: "top 20%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card4", {
-      x: 400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card4",
-        start: "top 90%",
-        end: "top 60%",
-        scrub: true,
-        
-      }
-    });
-    gsap.from(".card5", {
-      x: -400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card5",
-        start: "top 70%",
-        end: "top 20%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card6", {
-      x: 400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card6",
-        start: "top 90%",
-        end: "top 60%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card7", {
-      x: -400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card7",
-        start: "top 70%",
-        end: "top 20%",
-        scrub: true,
-        
-      }
-    });
-    gsap.from(".card8", {
-      x: 400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card8",
-        start: "top 90%",
-        end: "top 60%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card9", {
-      x: -400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card9",
-        start: "top 70%",
-        end: "top 20%",
-        scrub: true,
-       
-      }
-    });
-    gsap.from(".card10", {
-      x: 400,
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".card10",
-        start: "top 90%",
-        end: "top 60%",
-        scrub: true,
-        
-      }
-    });
-  });
+
+    return () => mm.revert(); // Clean up jab component destroy ho
+  }, []);
 
 
   return (
@@ -414,4 +415,4 @@ This project brings the traditional game to life with smooth animations, colorfu
   );
 };
 
-export default project;
+export default Project;
