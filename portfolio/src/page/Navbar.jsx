@@ -24,12 +24,13 @@ const Navbar = () => {
             <span className="text-2xl font-bold text-yellow-400">Portfolio</span>
           </div>
 
-          {/* Desktop Navigation */}
+               {/* some change */}
           <div className="hidden md:flex space-x-6 font-medium">
             <Link to="hero" smooth={true} duration={500} className={linkStyle}>Home</Link>
             <Link to="about" smooth={true} duration={500} className={linkStyle}>About</Link>
             <Link to="project" smooth={true} duration={500} className={linkStyle}>Projects</Link>
             <Link to="gmail" smooth={true} duration={500} className={linkStyle}>Contact</Link>
+
           </div>
 
           {/* Mobile Menu Button */}
