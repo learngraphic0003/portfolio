@@ -251,7 +251,7 @@ const Project = () => {
         <div className="w-4 h-4 rounded-full border-[3px] border-[#459bd5] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
 
         <a
-          href="https://project-uploder-nnoa-mtipkrkff-learngraphic0003s-projects.vercel.app"
+          href="https://project-uploder-nnoa-git-main-learngraphic0003s-projects.vercel.app/"
           className="flex w-full relative justify-center sm:justify-start"
         >
           <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 card3">
