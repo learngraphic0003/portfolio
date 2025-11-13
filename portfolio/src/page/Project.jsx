@@ -1,6 +1,6 @@
 import React from "react";
 import swiggyImg from "../assets/images/swiggy.png";
-import saladImg from "../assets/images/saladimg.png";
+import saladImg from "../assets/images/saladImg.png"
 import employee from "../assets/images/employe-management.png";
 import uploader from "../assets/images/uploader.png";
 import ai from "../assets/images/ai.png";
